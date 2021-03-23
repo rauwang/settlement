@@ -1,0 +1,19 @@
+{
+    "name": "rauwang/settlement",
+    "type": "package",
+    "description": "金额结算",
+    "authors": [
+        {
+            "name": "rauwang",
+            "email": "hi.rauwang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rauwang\\Settlement\\": "src/"
+        }
+    }
+}
